@@ -8,3 +8,10 @@ Fait pratiquer :
 - nom_variable
 - concaténation de chaines avec +
 - saut de ligne avec \n
+
+## Cours 02 : Tip Calculator
+Fait pratiquer : 
+- check data type
+- convertir un type de donnee 
+- f string
+- operateurs
