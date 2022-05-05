@@ -15,3 +15,10 @@ Fait pratiquer :
 - convertir un type de donnee 
 - f string
 - operateurs
+
+## Cours 03 : Adventure Game
+Fait pratiquer : 
+- if elif else
+- .lower()
+- .count()
+- and or not
