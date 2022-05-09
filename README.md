@@ -22,3 +22,9 @@ Fait pratiquer :
 - .lower()
 - .count()
 - and or not
+
+## Cours 04 : Rock Paper Scissors Game
+Fait pratiquer : 
+- module
+- random methods : randint()
+- list [] and list methods
