@@ -28,3 +28,9 @@ Fait pratiquer :
 - module
 - random methods : randint()
 - list [] and list methods
+
+## Cours 05 : Password Generator
+Fait pratiquer : 
+- loop for x in xs
+- random methods : .shuffle(), .choice()
+- range()
