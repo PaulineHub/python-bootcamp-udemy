@@ -34,3 +34,9 @@ Fait pratiquer :
 - loop for x in xs
 - random methods : .shuffle(), .choice()
 - range()
+
+## Cours 07 : Hangman
+Fait pratiquer : 
+- loop while
+- indentation
+- if x in []

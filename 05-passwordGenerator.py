@@ -43,4 +43,3 @@ pass_len = len(passwd_rand)
 for n in range(pass_len):
   final_rand_pass += passwd_rand[n]
 
-print(f"Your random password is {final_rand_pass}")
