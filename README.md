@@ -40,3 +40,9 @@ Fait pratiquer :
 - loop while
 - indentation
 - if x in []
+
+## Cours 08 : Caesar Cepher
+Fait pratiquer : 
+- function with parameters
+- loop while
+- if x in []
