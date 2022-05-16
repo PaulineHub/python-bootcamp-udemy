@@ -46,3 +46,11 @@ Fait pratiquer :
 - function with parameters
 - loop while
 - if x in []
+
+## Cours 09 : Secret Auction
+Fait pratiquer : 
+- dictionary {}
+
+## Cours 10 : Calculator
+Fait pratiquer : 
+- function output
