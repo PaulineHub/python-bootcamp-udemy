@@ -54,3 +54,8 @@ Fait pratiquer :
 ## Cours 10 : Calculator
 Fait pratiquer : 
 - function output
+
+## Cours 11 : Blackjack Game
+Fait pratiquer : 
+- function output
+- loop while

@@ -1,5 +1,15 @@
 import random
 
+logo = ''' 
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    '''
+
 stages = ['''
   +---+
   |   |
@@ -57,9 +67,9 @@ stages = ['''
 =========
 ''']
 
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["abracadabra", "sunset", "vacation"]
 end_of_game = False
-life_points = 6
+life_points = 7
 chosen_word = random.choice(word_list)
 display = []
 
@@ -67,7 +77,9 @@ for letter in chosen_word:
   display.append("_")
 
 #Testing code
-print(chosen_word)
+#print(chosen_word)
+
+print(logo)
 
 while not end_of_game:
   guess = input("Chose a letter.\n").lower()
@@ -84,7 +96,7 @@ while not end_of_game:
   else:
     life_points -= 1
     print(f"life points: {life_points}")
-    print(stages[life_points + 1])
+    print(stages[life_points])
   if "_" not in display:
     end_of_game = True
     print("you won !")
