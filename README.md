@@ -59,3 +59,7 @@ Fait pratiquer :
 Fait pratiquer : 
 - function output
 - loop while
+
+## Cours 12 : Guessing number
+Fait pratiquer : 
+- local vs global scope

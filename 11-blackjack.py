@@ -47,10 +47,10 @@ is_playing = direction_start_play()
 
 #Game running
 while is_playing:
-  clear()
-  print(logo)
   is_starting_from_top = True
   while is_starting_from_top:
+    clear()
+    print(logo)
     game_over = False
     computer_hand = random.choices(cards, k=2)
     computer_score = sum(computer_hand)
