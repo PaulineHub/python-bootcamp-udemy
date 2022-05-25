@@ -63,3 +63,10 @@ Fait pratiquer :
 ## Cours 12 : Guessing number
 Fait pratiquer : 
 - local vs global scope
+
+## Cours 14 : Higher Lower
+- Revision globale
+
+## Cours 15 : Coffee Machine
+- Installation Python sur machine
+- projet coffe machine
