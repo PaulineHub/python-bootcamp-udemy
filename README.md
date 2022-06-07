@@ -70,3 +70,13 @@ Fait pratiquer :
 ## Cours 15 : Coffee Machine
 - Installation Python sur machine
 - projet coffe machine
+
+## Cours 16 : Higher Lower Game
+
+## Cours 17 : Quiz Brain
+
+## Cours 18 : Hirst Painting
+## Cours 19 : Turtle Race
+## Cours 20-21 : Snake Game
+- Module Turtle
+- Class
