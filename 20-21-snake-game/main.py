@@ -13,29 +13,29 @@ from food_cls import Food
 from scoreboard_cls import Scoreboard
 import time
 
-#parameters of the screen
+# parameters of the screen
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
-#create a snake body and food
+# create a snake body and food
 snake = Snake()
 food = Food()
 score = Scoreboard()
 
-#direct snake's movements
+# direct snake's movements
 screen.listen()
 screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
 
-#move the snake
+# move the snake
 game_is_on = True
 while game_is_on:
-    screen.update()
+    screen.update()  # !! needed when screen.tracer(0)
     time.sleep(0.1)
     snake.move()
 
@@ -51,11 +51,11 @@ while game_is_on:
         score.gameover()
 
     # Detect collision with any segment of the tail
-    #excluding the head [0] of the array segments
+    # excluding the head [0] of the array segments
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
             game_is_on = False
             score.gameover()
         
-#exit the screen
+# exit the screen
 screen.exitonclick()
