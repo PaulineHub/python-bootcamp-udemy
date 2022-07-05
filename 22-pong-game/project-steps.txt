@@ -5,13 +5,16 @@
 # PADDLES
 # print paddle player, move bottom to top directed by keyboard
 # if paddle hit top or bottom of winddow, it stops
-# print paddle computer directed randomly
+# print second paddle, move bottom to top directed by keyboard with other keys
 
 # BALL
 # print a ball from center of the window and make it move, 
 # detect collision with border of the window :
 #   top and bottom : rebound on it and change angle (90)
-#   left and right : game restart when go through it and add 1 point on score
+#   left and right : 
+        ball go back to center when go through it 
+        ball move towards the other player 
+        add 1 point on score
 # detect collision with a paddle, go to oppose direction when hit it
 
 # SCORES
