@@ -1,12 +1,3 @@
-# Steps :
-# create a snake body
-# Move the snake
-# Create snake food
-# Detect collision with food
-# Create a scoreboard
-# Detect collision with wall
-# Detect collision with tail
-
 from turtle import Screen
 from snake_cls import Snake
 from food_cls import Food
@@ -47,15 +38,15 @@ while game_is_on:
 
     # Detect collision with wall
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        game_is_on = False
-        score.gameover()
+        score.reset()
+        snake.reset()
 
     # Detect collision with any segment of the tail
     # excluding the head [0] of the array segments
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
-            game_is_on = False
-            score.gameover()
+            score.reset()
+            snake.reset()
         
 # exit the screen
 screen.exitonclick()

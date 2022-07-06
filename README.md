@@ -78,5 +78,11 @@ Fait pratiquer :
 ## Cours 18 : Hirst Painting
 ## Cours 19 : Turtle Race
 ## Cours 20-21 : Snake Game
+## Cours 22 : Pong Game
+## Cours 23 : Turtle Crossing Game
 - Module Turtle
-- Class
+- Programmation orientee objet
+
+## Cours 24 : Mail merge
+- File Handling : how to automize creation, reading and modification of files
+- Methods : open(), write(), read(), readlines()

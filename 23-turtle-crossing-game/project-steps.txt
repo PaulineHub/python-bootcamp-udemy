@@ -1,0 +1,21 @@
+# PROJECT STEPS
+
+## Turtle
+Creat the Turtle
+Move only forwards when pressing up key
+
+## Cars
+Randomly generated along the y-axis, with different colors
+Move from the right to the left
+
+## Game 
+Detect collision with Cars
+Print Game Over
+Detect when turtle reaches the other side
+
+##Score
+Create a scoreboard
+Add a point to "Level:" when turtle reaches the other side
+
+Place the turtle at the bottom of the screen to start again when turtle reaches the other side
+Cars's speed became faster

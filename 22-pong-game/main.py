@@ -5,14 +5,14 @@ from ball_cls import Ball
 from scoreboard_cls import Scoreboard
 import time
 
-# parameters of the screen
+# Parameters of the screen
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("Pong Game")
 screen.tracer(0) #control animation of elements placing themself on screen at the begining with screen.update()
 
-# create field, paddles, ball, scoreboard
+# Create field, paddles, ball, scoreboard
 field = Field()
 r_paddle = Paddle((350,0))
 l_paddle = Paddle((-350, 0))
@@ -20,7 +20,7 @@ ball = Ball()
 r_scoreboard = Scoreboard((50, 230))
 l_scoreboard = Scoreboard((-50, 230))
 
-# direct paddle's movements
+# Direct paddle's movements
 screen.listen()
 screen.onkey(r_paddle.up, "Up")
 screen.onkey(r_paddle.down, "Down")
@@ -28,7 +28,7 @@ screen.onkey(l_paddle.up, "w")
 screen.onkey(l_paddle.down, "s")
 
 
-# play
+# Play
 game_is_on = True
 while game_is_on:
     time.sleep(ball.move_speed)
