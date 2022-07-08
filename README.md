@@ -86,3 +86,9 @@ Fait pratiquer :
 ## Cours 24 : Mail merge
 - File Handling : how to automize creation, reading and modification of files
 - Methods : open(), write(), read(), readlines()
+
+## Cours 25 : US States Game
+- CSV Files (Comma Separated Values)
+- Pandas Library
+- Create a dataframe
+- Work with rows ans colomns 
