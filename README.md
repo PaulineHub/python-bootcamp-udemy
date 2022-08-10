@@ -92,3 +92,6 @@ Fait pratiquer :
 - Pandas Library
 - Create a dataframe
 - Work with rows ans colomns 
+
+## Cours 26 : List Comprehension and the NATO Alphabet
+- 
