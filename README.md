@@ -94,4 +94,10 @@ Fait pratiquer :
 - Work with rows ans colomns 
 
 ## Cours 26 : List Comprehension and the NATO Alphabet
-- 
+- List Comprehension :  offers a shorter syntax when you want to create a new list based on the values of an existing list instead of a for loop with an if statement.
+- Dictionary Comprehension
+- Looping in Data Frame
+
+## Cours 27 : Kilometer Converter
+- Tkinter
+- optional arguments, *args and **kwargs
