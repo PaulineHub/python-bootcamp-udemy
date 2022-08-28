@@ -101,3 +101,12 @@ Fait pratiquer :
 ## Cours 27 : Kilometer Converter
 - Tkinter
 - optional arguments, *args and **kwargs
+
+## Cours 28 : Pomodoro App
+- Tkinter
+- Dynamic typing
+
+## Cours 29 & 30 : Password Manager
+- Tkinter
+- Errors and exceptions : try, except, else, finally
+- JSON Method : json.dump() to write, json.load() to read, json.update() to update

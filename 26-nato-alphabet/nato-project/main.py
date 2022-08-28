@@ -31,16 +31,30 @@ nato_dict = {row.letter: row.code for (index, row) in nato_df.iterrows()}
 #print(nato_dict)
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-user_input = input("What word do you want in NATO Alphabet ? ").upper()
+def generate_phonetic():
+    user_input = input("What word do you want in NATO Alphabet ? ").upper()
+    try:
+        output_list = [nato_dict[letter] for letter in user_input]
+    except KeyError:
+        print("Sorry, use only letters please.")
+        generate_phonetic()
+    else:
+        print(output_list)
+
+
+generate_phonetic()
+
+
 # OPTION 1
-input_letters = [letter for letter in user_input]
-nato_words_list = []
-for l in input_letters:
-    nato_word = {letter : word for (letter, word) in nato_dict.items() if letter == l}
-    nato_words_list.append(nato_word)
+# input_letters = [letter for letter in user_input]
+# nato_words_list = []
+# for l in input_letters:
+#     nato_word = {letter : word for (letter, word) in nato_dict.items() if letter == l}
+#     nato_words_list.append(nato_word)
 #print(nato_words_list) return [{'S': 'Sierra'}, {'O': 'Oscar'}, {'F': 'Foxtrot'}, {'A': 'Alfa'}]
+
 # OPTION 2
-output_list = [nato_dict[letter] for letter in user_input]
-print(output_list)
+# output_list = [nato_dict[letter] for letter in user_input]
+# print(output_list)
 #return ['Tango', 'Alfa', 'Bravo', 'Lima', 'Echo']
 
