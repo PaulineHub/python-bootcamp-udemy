@@ -110,3 +110,11 @@ Fait pratiquer :
 - Tkinter
 - Errors and exceptions : try, except, else, finally
 - JSON Method : json.dump() to write, json.load() to read, json.update() to update
+
+## Cours 31 : Flashcard project
+- Recap project for : 
+    - Tkinter
+    - Errors and exceptions
+    - CSV Files (Comma Separated Values)
+    - Pandas Library
+    - Create a dataframe
