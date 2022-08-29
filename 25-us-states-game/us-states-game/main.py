@@ -14,6 +14,7 @@ turtle.shape(image)
 
 """ Reaching datas """
 data = pandas.read_csv("25-us-states-game/us-states-game/50_states.csv")
+print(data)
 data_list = data["state"].tolist()
 states_to_learn_list = data_list
 
