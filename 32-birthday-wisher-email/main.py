@@ -8,7 +8,9 @@ data = pandas.read_csv("32-birthday-wisher-email/birthdays.csv")
 # birthdays_dict = {
 #     (month, day): data_row
 # }
-# pandas.DataFrame.iterrows : Iterate over DataFrame rows as (index, Series) pairs.
+
+# pandas.DataFrame.iterrows 
+# Iterate over DataFrame rows as (index, Series) pairs.
 birthdays_dict = {
     (data_row["month"], data_row["day"]): data_row for (index, data_row) in data.iterrows()
 }

@@ -2,7 +2,7 @@ import pandas
 
 ######### WEATHER DATA EXAMPLE #############
 
-#data = pandas.read_csv("weather_data.csv")
+data = pandas.read_csv("25-us-states-game/examples/weather_data.csv")
 #print(data["temp"])
 
 #data_dict = data.to_dict()
@@ -26,6 +26,9 @@ import pandas
 #Get data in Rows
 #print(data[data.day == "Monday"])
 
+# Get rows
+#print([row for row in data.iterrows()])
+
 #row with max temperature
 #print(data[data.temp == data_max])
 
@@ -41,20 +44,20 @@ import pandas
 
 ########### SQUIRRELS EXAMPLE #############
 
-#read file
-data_squirrels = pandas.read_csv("squirrel_data.csv")
-#print(data_squirrels)
-#extract number of squirrels by color
-grey_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Gray"])
-red_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Cinnamon"])
-black_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Black"])
-#print(black_squirrels_count)
-#create a dictionnary
-data_dict = {
-    "Fur Color": ["Gray", "Cinnamon", "Black"],
-    "Count": [grey_squirrels_count, red_squirrels_count, black_squirrels_count]
-}
-#print(data_dict)
-data_squirrels_color = pandas.DataFrame(data_dict)
-#print(data_squirrels_color)
-data_squirrels_color.to_csv("squirrels_count_color.csv")
+# #read file
+# data_squirrels = pandas.read_csv("squirrel_data.csv")
+# #print(data_squirrels)
+# #extract number of squirrels by color
+# grey_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Gray"])
+# red_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Cinnamon"])
+# black_squirrels_count = len(data_squirrels[data_squirrels["Primary Fur Color"] == "Black"])
+# #print(black_squirrels_count)
+# #create a dictionnary
+# data_dict = {
+#     "Fur Color": ["Gray", "Cinnamon", "Black"],
+#     "Count": [grey_squirrels_count, red_squirrels_count, black_squirrels_count]
+# }
+# #print(data_dict)
+# data_squirrels_color = pandas.DataFrame(data_dict)
+# #print(data_squirrels_color)
+# data_squirrels_color.to_csv("squirrels_count_color.csv")

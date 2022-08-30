@@ -118,3 +118,17 @@ Fait pratiquer :
     - CSV Files (Comma Separated Values)
     - Pandas Library
     - Create a dataframe
+
+## Cours 32 : Birthday wisher
+- Send email
+- Module datetime
+
+## Cours 33 : ISS Overhead Notifier
+- API
+- Module requests
+- method .get(url) for the request
+- method .raise_for_status() to raise exceptions
+
+## Cours 34 : Trivia API
+- API
+- Module html and method .unescape() to transform &quot into " for example
