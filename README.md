@@ -132,3 +132,6 @@ Fait pratiquer :
 ## Cours 34 : Trivia API
 - API
 - Module html and method .unescape() to transform &quot into " for example
+- Type hints :
+def greeting(name: str) -> str:
+    return 'Hello ' + name
