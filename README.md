@@ -135,3 +135,7 @@ Fait pratiquer :
 - Type hints :
 def greeting(name: str) -> str:
     return 'Hello ' + name
+
+## Cours 35 : Weather Rain Notification
+- API key
+- Export variable in local environment to protect data
