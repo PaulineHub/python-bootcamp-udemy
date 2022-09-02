@@ -137,5 +137,11 @@ def greeting(name: str) -> str:
     return 'Hello ' + name
 
 ## Cours 35 : Weather Rain Notification
+## Cours 36 : Stock News
+## Cours 37 : Habits Tracker
+## Cours 38 : Workout Tracking
 - API key
-- Export variable in local environment to protect data
+- Module OS : Export variable in local environment to protect data
+- Requests GET POST PUT DELETE
+- Headers, URL and params
+- Read API Documentation
