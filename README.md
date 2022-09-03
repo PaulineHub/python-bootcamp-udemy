@@ -145,3 +145,5 @@ def greeting(name: str) -> str:
 - Requests GET POST PUT DELETE
 - Headers, URL and params
 - Read API Documentation
+
+## Cours 39-40 : Flight Deal Finder
