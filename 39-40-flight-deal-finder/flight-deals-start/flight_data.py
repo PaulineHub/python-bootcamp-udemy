@@ -16,6 +16,7 @@ class FlightData:
         self.nights_in_dst_to = '27'
         self.flight_type = 'round'
         self.currency = 'CAD'
+        self.max_stopovers = '0'
 
         self.tequila_endpoint = "https://tequila-api.kiwi.com/v2/search"
         self.tequila_api_key = "SUTH6Ev-Ymi3IWpGA0C1xL0OvjEfN1rN"
@@ -32,7 +33,8 @@ class FlightData:
             "nights_in_dst_to": self.nights_in_dst_to,
             "flight_type": self.flight_type,
             "curr": self.currency,
-            "price_to": self.price_max
+            "price_to": self.price_max,
+            "max_stopovers": self.max_stopovers
         }
 
     def search_flights(self):
@@ -46,4 +48,7 @@ class FlightData:
             "date_from": travel['local_departure'],
             "date_to": travel['local_arrival']
             } for travel in tequila_data['data']]
-        return travels
+        if travels == []:
+            return f"There is currently no flight cheaper than {self.price_max} CAD for {self.fly_to} from {self.fly_from}."
+        else:
+            return travels
