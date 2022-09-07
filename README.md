@@ -140,10 +140,12 @@ def greeting(name: str) -> str:
 ## Cours 36 : Stock News
 ## Cours 37 : Habits Tracker
 ## Cours 38 : Workout Tracking
+## Cours 39-40 : Flight Deal Finder
 - API key
 - Module OS : Export variable in local environment to protect data
 - Requests GET POST PUT DELETE
 - Headers, URL and params
 - Read API Documentation
 
-## Cours 39-40 : Flight Deal Finder
+## Cours 45 : Beautiful Soup
+- Library Beautiful Soup for pulling data out of HTML and XML files
