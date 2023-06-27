@@ -149,3 +149,8 @@ def greeting(name: str) -> str:
 
 ## Cours 45 : Beautiful Soup
 - Library Beautiful Soup for pulling data out of HTML and XML files
+
+## Cours 46 : Spotify playlist
+
+## Cours 71 : College major vs your salary
+- Data exploration with Pandas
