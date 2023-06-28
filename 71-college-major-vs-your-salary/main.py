@@ -53,3 +53,29 @@ clean_df.head()
 # To see which degrees have the smallest spread, we can use the .sort_values() method. And since we are interested in only seeing the name of the degree and the major, we can pass a list of these two column names to look at the .head() of these two columns exclusively.
 low_risk = clean_df.sort_values('Spread')
 low_risk[['Undergraduate Major', 'Spread']].head()
+
+# We have three categories in the 'Group' column: STEM, HASS and Business. Let's count how many majors we have in each category:
+clean_df.groupby('Group').count()
+
+# Average salary by group
+# We can tell Pandas to print the numbers in our notebook to look like 1,012.45 with the following line:
+pd.options.display.float_format = '{:,.2f}'.format
+clean_df.groupby('Group').mean()
+
+
+# Learning Points
+
+
+# Use .head(), .tail(), .shape and .columns to explore your DataFrame and find out the number of rows and columns as well as the column names.
+
+# Look for NaN(not a number) values with .findna() and consider using .dropna() to clean up your DataFrame.
+
+# You can access entire columns of a DataFrame using the square bracket notation: df['column name'] or df[['column name 1', 'column name 2', 'column name 3']]
+
+# You can access individual cells in a DataFrame by chaining square brackets df['column name'][index] or using df['column name'].loc[index]
+
+# The largest and smallest values, as well as their positions, can be found with methods like .max(), .min(), .idxmax() and .idxmin()
+
+# You can sort the DataFrame with .sort_values() and add new columns with .insert()
+
+# To create an Excel Style Pivot Table by grouping entries that belong to a particular category use the .groupby() method
