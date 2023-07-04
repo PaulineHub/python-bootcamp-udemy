@@ -206,3 +206,6 @@ Fait pratiquer :
 
 - Data exploration with Pandas
 - Data visualisation with Matplotlib
+
+## Cours 73 : Lego
+- Filter with condition
